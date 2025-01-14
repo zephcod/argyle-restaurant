@@ -19,7 +19,7 @@
       <label height="20" bordercolor="0x000000" backgroundalpha="1" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" background="1" enabled="1" border="1" borderalpha="1" width="180" wordwrap="1" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
       <hotspot target="4.6/-3.3/70.0" title="Reception" description="" id="1" skinid="ht_node" tilt="-19.55" url="{node6}" pan="-1.15"/>
-      <hotspot target="-50.0/1.1/70.0" title="Stair" description="" id="1" skinid="ht_node" tilt="-8.93" url="{node8}" pan="-0.439988"/>
+      <hotspot target="-50.0/1.1/70.0" title="Foyer" description="" id="1" skinid="ht_node" tilt="-8.93" url="{node8}" pan="-0.44"/>
     </hotspots>
     <media/>
     <transition zoomafterinfov="90" zoomin="6" zoomoutpause="1" blendtime="1" zoomspeed="3.5" zoomfov="20" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomafteroutfov="20" zoomout="0"/>
@@ -73,7 +73,7 @@
       <label height="20" bordercolor="0x000000" backgroundalpha="1" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" background="1" enabled="1" border="1" borderalpha="1" width="180" wordwrap="1" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
       <hotspot target="-176.2/0.9/70.0" title="Entrance" description="" id="2" skinid="ht_node" tilt="-12.35" url="{node7}" pan="-223.28"/>
-      <hotspot target="-175.3/2.1/70.0" title="Reception" description="" id="Point04" skinid="ht_node" tilt="-25.65" url="{node6}" pan="-219.19"/>
+      <hotspot target="-175.3/2.1/70.0" title="Reception" description="" id="Point04" skinid="ht_node" tilt="-25.5" url="{node6}" pan="-219.49"/>
       <hotspot target="" title="Window Seat" description="" id="Point01" skinid="ht_node" tilt="-13.25" url="{node9}" pan="-49.51"/>
       <hotspot target="" title="Admin Corner" description="" id="Point01" skinid="ht_node" tilt="-15.7" url="{node13}" pan="-337.22"/>
     </hotspots>
