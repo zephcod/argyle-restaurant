@@ -1,296 +1,309 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="18043" appversion="6.1.11" start="node7">
-  <panorama id="node7" hideabout="1">
-    <input leveltilesize="510" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" width="1250" height="1250" levelbias="0.400">
-      <level predecode="0" width="1250" height="1250" preload="0"/>
-      <level predecode="0" width="625" height="625" preload="0"/>
-      <level predecode="1" width="312" height="312" preload="1"/>
+<tour apprev="18043" start="node7" appversion="6.1.11">
+  <panorama hideabout="1" id="node7">
+    <input height="2500" overlap="1" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" width="2500" levelingpitch="0">
+      <level height="2500" preload="0" predecode="0" width="2500"/>
+      <level height="1250" preload="0" predecode="0" width="1250"/>
+      <level height="625" preload="0" predecode="0" width="625"/>
+      <level height="312" preload="1" predecode="1" width="312"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start projection="4" tilt="0" fov="70" pan="0"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max fovfisheye="360" scaletofit="1" tilt="90" fov="120" pan="360" fovstereographic="270"/>
+      <max fovstereographic="270" fovfisheye="360" fov="120" tilt="90" pan="360" scaletofit="1"/>
     </view>
-    <userdata latitude="" description="Prepared by SOF Studio" tags="pano" title="Entrance" author="Sofonias L" datetime="2/4/2024 7:07 PM" customnodeid="" copyright="Sofonias L" comment="" heading="0" source="" longitude="" info="" nodeid="node7"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" enabled="1" width="180" borderalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderradius="1" height="20" textalpha="1" backgroundalpha="1" border="1"/>
-      <polystyle handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
-      <hotspot description="" target="-167.5/-2.5/70.0" tilt="-30.52" title="Reception" id="1" pan="-349.31" url="{node6}" skinid="ht_node"/>
-      <hotspot description="Customized furinno cabinet - refer millwork drawings" target="_blank" tilt="7.34" title="Furinno Cabinet" id="Point06" pan="-55.63" url="https://www.homedepot.com/p/Furinno-41-7-in-White-Faux-Wood-7-shelf-Standard-Bookcase-with-Storage-11048WH/302997705" skinid="ht_url"/>
-      <hotspot description="" target="145.7/-2.0/70.0" tilt="-13.85" title="Stair" id="1" pan="-348.89" url="{node8}" skinid="ht_node"/>
+    <userdata longitude="" title="Entrance" heading="0" customnodeid="" description="Prepared by SOF Studio" tags="pano" datetime="2/4/2024 7:07 PM" latitude="" nodeid="node7" copyright="Sofonias L" info="" author="Sofonias L" source="" comment=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" bordercolor="0x000000" backgroundalpha="1" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" background="1" enabled="1" border="1" borderalpha="1" width="180" wordwrap="1" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
+      <hotspot target="4.6/-3.3/70.0" title="Reception" description="" id="1" skinid="ht_node" tilt="-19.55" url="{node6}" pan="-1.15"/>
+      <hotspot target="-50.0/1.1/70.0" title="Stair" description="" id="1" skinid="ht_node" tilt="-8.93" url="{node8}" pan="-0.439988"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomfov="20" enabled="1" type="crossdissolve" zoomspeed="3.5" zoomafteroutfov="20" zoomout="0" softedge="0" blendcolor="0x000000" zoomafterinfov="90" zoomin="6" zoomoutpause="1"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control dblclickfullscreen="0" simulatemass="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertcontrol="1" lockedmouse="0" invertwheel="0" speedwheel="1" contextfullscreen="1" contextprojections="1" hideabout="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <transition zoomafterinfov="90" zoomin="6" zoomoutpause="1" blendtime="1" zoomspeed="3.5" zoomfov="20" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomafteroutfov="20" zoomout="0"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control rubberband="0" lockedkeyboard="0" hideabout="1" speedwheel="1" contextprojections="1" lockedwheel="0" simulatemass="1" sensitivity="8" lockedkeyboardzoom="0" lockedmouse="0" invertwheel="0" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="1"/>
   </panorama>
-  <panorama id="node6" hideabout="1">
-    <input leveltilesize="510" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" width="1250" height="1250" levelbias="0.400">
-      <level predecode="0" width="1250" height="1250" preload="0"/>
-      <level predecode="0" width="625" height="625" preload="0"/>
-      <level predecode="1" width="312" height="312" preload="1"/>
+  <panorama hideabout="1" id="node6">
+    <input height="2500" overlap="1" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" width="2500" levelingpitch="0">
+      <level height="2500" preload="0" predecode="0" width="2500"/>
+      <level height="1250" preload="0" predecode="0" width="1250"/>
+      <level height="625" preload="0" predecode="0" width="625"/>
+      <level height="312" preload="1" predecode="1" width="312"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start projection="4" tilt="0" fov="70" pan="0"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max fovfisheye="360" scaletofit="1" tilt="90" fov="120" pan="360" fovstereographic="270"/>
+      <max fovstereographic="270" fovfisheye="360" fov="120" tilt="90" pan="360" scaletofit="1"/>
     </view>
-    <userdata latitude="" description="Prepared by SOF Studio" tags="pano" title="Reception" author="Sofonias L" datetime="2/4/2024 7:06 PM" customnodeid="" copyright="Sofonias L" comment="" heading="0" source="" longitude="" info="" nodeid="node6"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" enabled="1" width="180" borderalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderradius="1" height="20" textalpha="1" backgroundalpha="1" border="1"/>
-      <polystyle handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
-      <hotspot description="" target="-176.2/0.9/70.0" tilt="-20.52" title="Entrance" id="2" pan="-177.81" url="{node7}" skinid="ht_node"/>
-      <hotspot description="" target="-131.7/-3.6/70.0" tilt="-22.91" title="Foyer" id="Point04" pan="-339.22" url="{node8}" skinid="ht_node"/>
+    <userdata longitude="" title="Reception" heading="0" customnodeid="" description="Prepared by SOF Studio" tags="pano" datetime="2/4/2024 7:06 PM" latitude="" nodeid="node6" copyright="Sofonias L" info="" author="Sofonias L" source="" comment=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" bordercolor="0x000000" backgroundalpha="1" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" background="1" enabled="1" border="1" borderalpha="1" width="180" wordwrap="1" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
+      <hotspot target="-176.2/0.9/70.0" title="Entrance" description="" id="2" skinid="ht_node" tilt="-20.52" url="{node7}" pan="-177.81"/>
+      <hotspot target="-42.3/-9.2/70.0" title="Foyer" description="" id="Point04" skinid="ht_node" tilt="-17.74" url="{node8}" pan="-339.03"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomfov="20" enabled="1" type="crossdissolve" zoomspeed="3.5" zoomafteroutfov="20" zoomout="0" softedge="0" blendcolor="0x000000" zoomafterinfov="90" zoomin="6" zoomoutpause="1"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control dblclickfullscreen="0" simulatemass="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertcontrol="1" lockedmouse="0" invertwheel="0" speedwheel="1" contextfullscreen="1" contextprojections="1" hideabout="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <transition zoomafterinfov="90" zoomin="6" zoomoutpause="1" blendtime="1" zoomspeed="3.5" zoomfov="20" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomafteroutfov="20" zoomout="0"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control rubberband="0" lockedkeyboard="0" hideabout="1" speedwheel="1" contextprojections="1" lockedwheel="0" simulatemass="1" sensitivity="8" lockedkeyboardzoom="0" lockedmouse="0" invertwheel="0" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="1"/>
   </panorama>
-  <panorama id="node8" hideabout="1">
-    <input leveltilesize="510" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" width="1250" height="1250" levelbias="0.400">
-      <level predecode="0" width="1250" height="1250" preload="0"/>
-      <level predecode="0" width="625" height="625" preload="0"/>
-      <level predecode="1" width="312" height="312" preload="1"/>
+  <panorama hideabout="1" id="node8">
+    <input height="2500" overlap="1" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" width="2500" levelingpitch="0">
+      <level height="2500" preload="0" predecode="0" width="2500"/>
+      <level height="1250" preload="0" predecode="0" width="1250"/>
+      <level height="625" preload="0" predecode="0" width="625"/>
+      <level height="312" preload="1" predecode="1" width="312"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start projection="4" tilt="0" fov="70" pan="0"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max fovfisheye="360" scaletofit="1" tilt="90" fov="120" pan="360" fovstereographic="270"/>
+      <max fovstereographic="270" fovfisheye="360" fov="120" tilt="90" pan="360" scaletofit="1"/>
     </view>
-    <userdata latitude="" description="Prepared by SOF Studio" tags="Windows" title="Foyer" author="Sofonias L" datetime="10/22/2024 11:34 AM" customnodeid="" copyright="Sofonias L" comment="" heading="0" source="" longitude="" info="" nodeid="node8"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" enabled="1" width="180" borderalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderradius="1" height="20" textalpha="1" backgroundalpha="1" border="1"/>
-      <polystyle handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
-      <hotspot description="" target="-176.2/0.9/70.0" tilt="-12.35" title="Entrance" id="2" pan="-223.28" url="{node7}" skinid="ht_node"/>
-      <hotspot description="" target="119.9/3.7/70.0" tilt="-25.65" title="Reception" id="Point04" pan="-219.19" url="{node6}" skinid="ht_node"/>
-      <hotspot description="" target="" tilt="-13.25" title="Window Seat" id="Point01" pan="-49.51" url="{node9}" skinid="ht_node"/>
+    <userdata longitude="" title="Foyer" heading="0" customnodeid="" description="Prepared by SOF Studio" tags="Windows" datetime="10/22/2024 11:34 AM" latitude="" nodeid="node8" copyright="Sofonias L" info="" author="Sofonias L" source="" comment=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" bordercolor="0x000000" backgroundalpha="1" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" background="1" enabled="1" border="1" borderalpha="1" width="180" wordwrap="1" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
+      <hotspot target="-176.2/0.9/70.0" title="Entrance" description="" id="2" skinid="ht_node" tilt="-12.35" url="{node7}" pan="-223.28"/>
+      <hotspot target="-175.3/2.1/70.0" title="Reception" description="" id="Point04" skinid="ht_node" tilt="-25.65" url="{node6}" pan="-219.19"/>
+      <hotspot target="" title="Window Seat" description="" id="Point01" skinid="ht_node" tilt="-13.25" url="{node9}" pan="-49.51"/>
+      <hotspot target="" title="Admin Corner" description="" id="Point01" skinid="ht_node" tilt="-15.7" url="{node13}" pan="-337.22"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomfov="20" enabled="1" type="crossdissolve" zoomspeed="3.5" zoomafteroutfov="20" zoomout="0" softedge="0" blendcolor="0x000000" zoomafterinfov="90" zoomin="6" zoomoutpause="1"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control dblclickfullscreen="0" simulatemass="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertcontrol="1" lockedmouse="0" invertwheel="0" speedwheel="1" contextfullscreen="1" contextprojections="1" hideabout="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <transition zoomafterinfov="90" zoomin="6" zoomoutpause="1" blendtime="1" zoomspeed="3.5" zoomfov="20" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomafteroutfov="20" zoomout="0"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control rubberband="0" lockedkeyboard="0" hideabout="1" speedwheel="1" contextprojections="1" lockedwheel="0" simulatemass="1" sensitivity="8" lockedkeyboardzoom="0" lockedmouse="0" invertwheel="0" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="1"/>
   </panorama>
-  <panorama id="node9" hideabout="1">
-    <input leveltilesize="510" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" width="1250" height="1250" levelbias="0.400">
-      <level predecode="0" width="1250" height="1250" preload="0"/>
-      <level predecode="0" width="625" height="625" preload="0"/>
-      <level predecode="1" width="312" height="312" preload="1"/>
+  <panorama hideabout="1" id="node9">
+    <input height="2500" overlap="1" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" width="2500" levelingpitch="0">
+      <level height="2500" preload="0" predecode="0" width="2500"/>
+      <level height="1250" preload="0" predecode="0" width="1250"/>
+      <level height="625" preload="0" predecode="0" width="625"/>
+      <level height="312" preload="1" predecode="1" width="312"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start projection="4" tilt="0" fov="70" pan="0"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max fovfisheye="360" scaletofit="1" tilt="90" fov="120" pan="360" fovstereographic="270"/>
+      <max fovstereographic="270" fovfisheye="360" fov="120" tilt="90" pan="360" scaletofit="1"/>
     </view>
-    <userdata latitude="" description="Prepared by SOF Studio" tags="v1" title="Window Seats" author="Sofonias L" datetime="" customnodeid="" copyright="Sofonias L" comment="" heading="0" source="" longitude="" info="" nodeid="node9"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" enabled="1" width="180" borderalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderradius="1" height="20" textalpha="1" backgroundalpha="1" border="1"/>
-      <polystyle handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
-      <hotspot description="" target="" tilt="-15.18" title="" id="Point01" pan="-180.56" url="{node8}" skinid="ht_node"/>
-      <hotspot description="" target="" tilt="-16.31" title="Corner Seat" id="Point02" pan="-355.17" url="{node10}" skinid="ht_node"/>
+    <userdata longitude="" title="Window Seats" heading="0" customnodeid="" description="Prepared by SOF Studio" tags="v1" datetime="" latitude="" nodeid="node9" copyright="Sofonias L" info="" author="Sofonias L" source="" comment=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" bordercolor="0x000000" backgroundalpha="1" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" background="1" enabled="1" border="1" borderalpha="1" width="180" wordwrap="1" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
+      <hotspot target="134.4/-1.0/70.0" title="Foyer" description="" id="Point01" skinid="ht_node" tilt="-15.18" url="{node8}" pan="-180.56"/>
+      <hotspot target="0.0/0.0/70.0" title="Corner Seat" description="" id="Point02" skinid="ht_node" tilt="-16.31" url="{node10}" pan="-355.17"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomfov="20" enabled="1" type="crossdissolve" zoomspeed="3.5" zoomafteroutfov="20" zoomout="0" softedge="0" blendcolor="0x000000" zoomafterinfov="90" zoomin="6" zoomoutpause="1"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control dblclickfullscreen="0" simulatemass="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertcontrol="1" lockedmouse="0" invertwheel="0" speedwheel="1" contextfullscreen="1" contextprojections="1" hideabout="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <transition zoomafterinfov="90" zoomin="6" zoomoutpause="1" blendtime="1" zoomspeed="3.5" zoomfov="20" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomafteroutfov="20" zoomout="0"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control rubberband="0" lockedkeyboard="0" hideabout="1" speedwheel="1" contextprojections="1" lockedwheel="0" simulatemass="1" sensitivity="8" lockedkeyboardzoom="0" lockedmouse="0" invertwheel="0" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="1"/>
   </panorama>
-  <panorama id="node10" hideabout="1">
-    <input leveltilesize="510" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" width="1250" height="1250" levelbias="0.400">
-      <level predecode="0" width="1250" height="1250" preload="0"/>
-      <level predecode="0" width="625" height="625" preload="0"/>
-      <level predecode="1" width="312" height="312" preload="1"/>
+  <panorama hideabout="1" id="node10">
+    <input height="2500" overlap="1" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" width="2500" levelingpitch="0">
+      <level height="2500" preload="0" predecode="0" width="2500"/>
+      <level height="1250" preload="0" predecode="0" width="1250"/>
+      <level height="625" preload="0" predecode="0" width="625"/>
+      <level height="312" preload="1" predecode="1" width="312"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start projection="4" tilt="0" fov="70" pan="0"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max fovfisheye="360" scaletofit="1" tilt="90" fov="120" pan="360" fovstereographic="270"/>
+      <max fovstereographic="270" fovfisheye="360" fov="120" tilt="90" pan="360" scaletofit="1"/>
     </view>
-    <userdata latitude="" description="Prepared by SOF Studio" tags="v1" title="Corner Seat" author="Sofonias L" datetime="" customnodeid="" copyright="Sofonias L" comment="" heading="0" source="" longitude="" info="" nodeid="node10"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" enabled="1" width="180" borderalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderradius="1" height="20" textalpha="1" backgroundalpha="1" border="1"/>
-      <polystyle handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
-      <hotspot description="" target="" tilt="-15.5" title="Window Seat" id="Point01" pan="-175.27" url="{node9}" skinid="ht_node"/>
-      <hotspot description="" target="" tilt="-16.09" title="Kitchen Path" id="Point02" pan="-266.88" url="{node11}" skinid="ht_node"/>
-      <hotspot description="" target="" tilt="-8.09" title="" id="Point01" pan="-176.88" url="{node8}" skinid="ht_node"/>
+    <userdata longitude="" title="Corner Seat" heading="0" customnodeid="" description="Prepared by SOF Studio" tags="v1" datetime="" latitude="" nodeid="node10" copyright="Sofonias L" info="" author="Sofonias L" source="" comment=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" bordercolor="0x000000" backgroundalpha="1" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" background="1" enabled="1" border="1" borderalpha="1" width="180" wordwrap="1" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
+      <hotspot target="176.9/-2.5/70.0" title="Window Seat" description="" id="Point01" skinid="ht_node" tilt="-15.5" url="{node9}" pan="-175.27"/>
+      <hotspot target="92.1/-3.7/70.0" title="Kitchen Path" description="" id="Point02" skinid="ht_node" tilt="-16.09" url="{node11}" pan="-266.88"/>
+      <hotspot target="123.3/-4.0/70.0" title="" description="" id="Point01" skinid="ht_node" tilt="-8.09" url="{node8}" pan="-176.88"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomfov="20" enabled="1" type="crossdissolve" zoomspeed="3.5" zoomafteroutfov="20" zoomout="0" softedge="0" blendcolor="0x000000" zoomafterinfov="90" zoomin="6" zoomoutpause="1"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control dblclickfullscreen="0" simulatemass="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertcontrol="1" lockedmouse="0" invertwheel="0" speedwheel="1" contextfullscreen="1" contextprojections="1" hideabout="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <transition zoomafterinfov="90" zoomin="6" zoomoutpause="1" blendtime="1" zoomspeed="3.5" zoomfov="20" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomafteroutfov="20" zoomout="0"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control rubberband="0" lockedkeyboard="0" hideabout="1" speedwheel="1" contextprojections="1" lockedwheel="0" simulatemass="1" sensitivity="8" lockedkeyboardzoom="0" lockedmouse="0" invertwheel="0" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="1"/>
   </panorama>
-  <panorama id="node11" hideabout="1">
-    <input leveltilesize="510" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" width="1250" height="1250" levelbias="0.400">
-      <level predecode="0" width="1250" height="1250" preload="0"/>
-      <level predecode="0" width="625" height="625" preload="0"/>
-      <level predecode="1" width="312" height="312" preload="1"/>
+  <panorama hideabout="1" id="node11">
+    <input height="2500" overlap="1" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" width="2500" levelingpitch="0">
+      <level height="2500" preload="0" predecode="0" width="2500"/>
+      <level height="1250" preload="0" predecode="0" width="1250"/>
+      <level height="625" preload="0" predecode="0" width="625"/>
+      <level height="312" preload="1" predecode="1" width="312"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start projection="4" tilt="0" fov="70" pan="0"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max fovfisheye="360" scaletofit="1" tilt="90" fov="120" pan="360" fovstereographic="270"/>
+      <max fovstereographic="270" fovfisheye="360" fov="120" tilt="90" pan="360" scaletofit="1"/>
     </view>
-    <userdata latitude="" description="Prepared by SOF Studio" tags="v1" title="Kitchen Path" author="Sofonias L" datetime="" customnodeid="" copyright="Sofonias L" comment="" heading="0" source="" longitude="" info="" nodeid="node11"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" enabled="1" width="180" borderalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderradius="1" height="20" textalpha="1" backgroundalpha="1" border="1"/>
-      <polystyle handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
-      <hotspot description="" target="" tilt="-20.02" title="Corner Seat" id="Point02" pan="-84.86" url="{node10}" skinid="ht_node"/>
-      <hotspot description="" target="" tilt="-14.7" title="Bar Center" id="Point01" pan="-207.12" url="{node12}" skinid="ht_node"/>
+    <userdata longitude="" title="Kitchen Path" heading="0" customnodeid="" description="Prepared by SOF Studio" tags="v1" datetime="" latitude="" nodeid="node11" copyright="Sofonias L" info="" author="Sofonias L" source="" comment=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" bordercolor="0x000000" backgroundalpha="1" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" background="1" enabled="1" border="1" borderalpha="1" width="180" wordwrap="1" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
+      <hotspot target="-92.2/-0.8/70.0" title="Corner Seat" description="" id="Point02" skinid="ht_node" tilt="-20.02" url="{node10}" pan="-84.86"/>
+      <hotspot target="142.0/-3.6/70.0" title="Bar Center" description="" id="Point01" skinid="ht_node" tilt="-14.7" url="{node12}" pan="-207.12"/>
+      <hotspot target="158.1/-0.3/70.0" title="Admin Corner" description="" id="Point01" skinid="ht_node" tilt="-8.23" url="{node13}" pan="-186.33"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomfov="20" enabled="1" type="crossdissolve" zoomspeed="3.5" zoomafteroutfov="20" zoomout="0" softedge="0" blendcolor="0x000000" zoomafterinfov="90" zoomin="6" zoomoutpause="1"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control dblclickfullscreen="0" simulatemass="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertcontrol="1" lockedmouse="0" invertwheel="0" speedwheel="1" contextfullscreen="1" contextprojections="1" hideabout="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <transition zoomafterinfov="90" zoomin="6" zoomoutpause="1" blendtime="1" zoomspeed="3.5" zoomfov="20" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomafteroutfov="20" zoomout="0"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control rubberband="0" lockedkeyboard="0" hideabout="1" speedwheel="1" contextprojections="1" lockedwheel="0" simulatemass="1" sensitivity="8" lockedkeyboardzoom="0" lockedmouse="0" invertwheel="0" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="1"/>
   </panorama>
-  <panorama id="node12" hideabout="1">
-    <input leveltilesize="510" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" width="1250" height="1250" levelbias="0.400">
-      <level predecode="0" width="1250" height="1250" preload="0"/>
-      <level predecode="0" width="625" height="625" preload="0"/>
-      <level predecode="1" width="312" height="312" preload="1"/>
+  <panorama hideabout="1" id="node12">
+    <input height="2500" overlap="1" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" width="2500" levelingpitch="0">
+      <level height="2500" preload="0" predecode="0" width="2500"/>
+      <level height="1250" preload="0" predecode="0" width="1250"/>
+      <level height="625" preload="0" predecode="0" width="625"/>
+      <level height="312" preload="1" predecode="1" width="312"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start projection="4" tilt="0" fov="70" pan="0"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max fovfisheye="360" scaletofit="1" tilt="90" fov="120" pan="360" fovstereographic="270"/>
+      <max fovstereographic="270" fovfisheye="360" fov="120" tilt="90" pan="360" scaletofit="1"/>
     </view>
-    <userdata latitude="" description="Prepared by SOF Studio" tags="v1" title="Bar Center" author="Sofonias L" datetime="" customnodeid="" copyright="Sofonias L" comment="" heading="0" source="" longitude="" info="" nodeid="node12"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" enabled="1" width="180" borderalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderradius="1" height="20" textalpha="1" backgroundalpha="1" border="1"/>
-      <polystyle handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
-      <hotspot description="" target="" tilt="-16.46" title="Kitchen Path" id="Point02" pan="-2.52" url="{node11}" skinid="ht_node"/>
-      <hotspot description="" target="" tilt="-16.26" title="Admin Corner" id="Point01" pan="-169.75" url="{node13}" skinid="ht_node"/>
+    <userdata longitude="" title="Bar Center" heading="0" customnodeid="" description="Prepared by SOF Studio" tags="v1" datetime="" latitude="" nodeid="node12" copyright="Sofonias L" info="" author="Sofonias L" source="" comment=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" bordercolor="0x000000" backgroundalpha="1" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" background="1" enabled="1" border="1" borderalpha="1" width="180" wordwrap="1" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
+      <hotspot target="5.8/-3.4/70.0" title="Kitchen Path" description="" id="Point02" skinid="ht_node" tilt="-16.46" url="{node11}" pan="-2.52"/>
+      <hotspot target="160.5/0.1/70.0" title="Admin Corner" description="" id="Point01" skinid="ht_node" tilt="-16.26" url="{node13}" pan="-169.75"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomfov="20" enabled="1" type="crossdissolve" zoomspeed="3.5" zoomafteroutfov="20" zoomout="0" softedge="0" blendcolor="0x000000" zoomafterinfov="90" zoomin="6" zoomoutpause="1"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control dblclickfullscreen="0" simulatemass="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertcontrol="1" lockedmouse="0" invertwheel="0" speedwheel="1" contextfullscreen="1" contextprojections="1" hideabout="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <transition zoomafterinfov="90" zoomin="6" zoomoutpause="1" blendtime="1" zoomspeed="3.5" zoomfov="20" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomafteroutfov="20" zoomout="0"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control rubberband="0" lockedkeyboard="0" hideabout="1" speedwheel="1" contextprojections="1" lockedwheel="0" simulatemass="1" sensitivity="8" lockedkeyboardzoom="0" lockedmouse="0" invertwheel="0" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="1"/>
   </panorama>
-  <panorama id="node13" hideabout="1">
-    <input leveltilesize="510" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" width="1250" height="1250" levelbias="0.400">
-      <level predecode="0" width="1250" height="1250" preload="0"/>
-      <level predecode="0" width="625" height="625" preload="0"/>
-      <level predecode="1" width="312" height="312" preload="1"/>
+  <panorama hideabout="1" id="node13">
+    <input height="2500" overlap="1" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" width="2500" levelingpitch="0">
+      <level height="2500" preload="0" predecode="0" width="2500"/>
+      <level height="1250" preload="0" predecode="0" width="1250"/>
+      <level height="625" preload="0" predecode="0" width="625"/>
+      <level height="312" preload="1" predecode="1" width="312"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start projection="4" tilt="0" fov="70" pan="0"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max fovfisheye="360" scaletofit="1" tilt="90" fov="120" pan="360" fovstereographic="270"/>
+      <max fovstereographic="270" fovfisheye="360" fov="120" tilt="90" pan="360" scaletofit="1"/>
     </view>
-    <userdata latitude="" description="Prepared by SOF Studio" tags="v1" title="Admin Corner" author="Sofonias L" datetime="" customnodeid="" copyright="Sofonias L" comment="" heading="0" source="" longitude="" info="" nodeid="node13"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" enabled="1" width="180" borderalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderradius="1" height="20" textalpha="1" backgroundalpha="1" border="1"/>
-      <polystyle handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
-      <hotspot description="" target="" tilt="-18.51" title="" id="Point01" pan="-88.43" url="{node8}" skinid="ht_node"/>
-      <hotspot description="" target="" tilt="-13.9" title="Bar Center" id="Point01" pan="-344.62" url="{node12}" skinid="ht_node"/>
-      <hotspot description="" target="" tilt="-24.96" title="Back Seats" id="Point02" pan="-161.22" url="{node14}" skinid="ht_node"/>
+    <userdata longitude="" title="Admin Corner" heading="0" customnodeid="" description="Prepared by SOF Studio" tags="v1" datetime="" latitude="" nodeid="node13" copyright="Sofonias L" info="" author="Sofonias L" source="" comment=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" bordercolor="0x000000" backgroundalpha="1" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" background="1" enabled="1" border="1" borderalpha="1" width="180" wordwrap="1" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
+      <hotspot target="-135.2/0.2/70.0" title="Foyer" description="" id="Point01" skinid="ht_node" tilt="-17.57" url="{node8}" pan="-90.94"/>
+      <hotspot target="" title="Bar Center" description="" id="Point01" skinid="ht_node" tilt="-13.9" url="{node12}" pan="-344.62"/>
+      <hotspot target="19.6/-0.3/70.0" title="Back Seats" description="" id="Point02" skinid="ht_node" tilt="-24.96" url="{node14}" pan="-161.22"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomfov="20" enabled="1" type="crossdissolve" zoomspeed="3.5" zoomafteroutfov="20" zoomout="0" softedge="0" blendcolor="0x000000" zoomafterinfov="90" zoomin="6" zoomoutpause="1"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control dblclickfullscreen="0" simulatemass="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertcontrol="1" lockedmouse="0" invertwheel="0" speedwheel="1" contextfullscreen="1" contextprojections="1" hideabout="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <transition zoomafterinfov="90" zoomin="6" zoomoutpause="1" blendtime="1" zoomspeed="3.5" zoomfov="20" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomafteroutfov="20" zoomout="0"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control rubberband="0" lockedkeyboard="0" hideabout="1" speedwheel="1" contextprojections="1" lockedwheel="0" simulatemass="1" sensitivity="8" lockedkeyboardzoom="0" lockedmouse="0" invertwheel="0" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="1"/>
   </panorama>
-  <panorama id="node14" hideabout="1">
-    <input leveltilesize="510" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" width="1250" height="1250" levelbias="0.400">
-      <level predecode="0" width="1250" height="1250" preload="0"/>
-      <level predecode="0" width="625" height="625" preload="0"/>
-      <level predecode="1" width="312" height="312" preload="1"/>
+  <panorama hideabout="1" id="node14">
+    <input height="2500" overlap="1" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" width="2500" levelingpitch="0">
+      <level height="2500" preload="0" predecode="0" width="2500"/>
+      <level height="1250" preload="0" predecode="0" width="1250"/>
+      <level height="625" preload="0" predecode="0" width="625"/>
+      <level height="312" preload="1" predecode="1" width="312"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start projection="4" tilt="0" fov="70" pan="0"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max fovfisheye="360" scaletofit="1" tilt="90" fov="120" pan="360" fovstereographic="270"/>
+      <max fovstereographic="270" fovfisheye="360" fov="120" tilt="90" pan="360" scaletofit="1"/>
     </view>
-    <userdata latitude="" description="Prepared by SOF Studio" tags="v1" title="Back Seat" author="Sofonias L" datetime="" customnodeid="" copyright="Sofonias L" comment="" heading="0" source="" longitude="" info="" nodeid="node14"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" enabled="1" width="180" borderalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderradius="1" height="20" textalpha="1" backgroundalpha="1" border="1"/>
-      <polystyle handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
-      <hotspot description="" target="" tilt="-15.88" title="Admin Corner" id="Point01" pan="-174.6" url="{node13}" skinid="ht_node"/>
-      <hotspot description="" target="" tilt="-21.09" title="Back Seat Corner" id="Point02" pan="-359.78" url="{node15}" skinid="ht_node"/>
+    <userdata longitude="" title="Back Seat" heading="0" customnodeid="" description="Prepared by SOF Studio" tags="v1" datetime="" latitude="" nodeid="node14" copyright="Sofonias L" info="" author="Sofonias L" source="" comment=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" bordercolor="0x000000" backgroundalpha="1" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" background="1" enabled="1" border="1" borderalpha="1" width="180" wordwrap="1" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
+      <hotspot target="0.0/0.0/70.0" title="Admin Corner" description="" id="Point01" skinid="ht_node" tilt="-15.88" url="{node13}" pan="-174.6"/>
+      <hotspot target="-41.7/-5.7/70.0" title="Back Seat Corner" description="" id="Point02" skinid="ht_node" tilt="-21.37" url="{node15}" pan="-359.76"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomfov="20" enabled="1" type="crossdissolve" zoomspeed="3.5" zoomafteroutfov="20" zoomout="0" softedge="0" blendcolor="0x000000" zoomafterinfov="90" zoomin="6" zoomoutpause="1"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control dblclickfullscreen="0" simulatemass="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertcontrol="1" lockedmouse="0" invertwheel="0" speedwheel="1" contextfullscreen="1" contextprojections="1" hideabout="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <transition zoomafterinfov="90" zoomin="6" zoomoutpause="1" blendtime="1" zoomspeed="3.5" zoomfov="20" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomafteroutfov="20" zoomout="0"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control rubberband="0" lockedkeyboard="0" hideabout="1" speedwheel="1" contextprojections="1" lockedwheel="0" simulatemass="1" sensitivity="8" lockedkeyboardzoom="0" lockedmouse="0" invertwheel="0" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="1"/>
   </panorama>
-  <panorama id="node15" hideabout="1">
-    <input leveltilesize="510" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" width="1250" height="1250" levelbias="0.400">
-      <level predecode="0" width="1250" height="1250" preload="0"/>
-      <level predecode="0" width="625" height="625" preload="0"/>
-      <level predecode="1" width="312" height="312" preload="1"/>
+  <panorama hideabout="1" id="node15">
+    <input height="2500" overlap="1" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" width="2500" levelingpitch="0">
+      <level height="2500" preload="0" predecode="0" width="2500"/>
+      <level height="1250" preload="0" predecode="0" width="1250"/>
+      <level height="625" preload="0" predecode="0" width="625"/>
+      <level height="312" preload="1" predecode="1" width="312"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start projection="4" tilt="0" fov="70" pan="0"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max fovfisheye="360" scaletofit="1" tilt="90" fov="120" pan="360" fovstereographic="270"/>
+      <max fovstereographic="270" fovfisheye="360" fov="120" tilt="90" pan="360" scaletofit="1"/>
     </view>
-    <userdata latitude="" description="Prepared by SOF Studio" tags="v1" title="Back Seat Corner" author="Sofonias L" datetime="" customnodeid="" copyright="Sofonias L" comment="" heading="0" source="" longitude="" info="" nodeid="node15"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" enabled="1" width="180" borderalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderradius="1" height="20" textalpha="1" backgroundalpha="1" border="1"/>
-      <polystyle handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
-      <hotspot description="" target="" tilt="-26.86" title="Back Seat End" id="Point01" pan="-322.38" url="{node16}" skinid="ht_node"/>
-      <hotspot description="" target="" tilt="-18.7" title="Back Seats" id="Point02" pan="-223.36" url="{node14}" skinid="ht_node"/>
+    <userdata longitude="" title="Back Seat Corner" heading="0" customnodeid="" description="Prepared by SOF Studio" tags="v1" datetime="" latitude="" nodeid="node15" copyright="Sofonias L" info="" author="Sofonias L" source="" comment=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" bordercolor="0x000000" backgroundalpha="1" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" background="1" enabled="1" border="1" borderalpha="1" width="180" wordwrap="1" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
+      <hotspot target="0.6/1.1/70.0" title="Back Seat End" description="" id="Point01" skinid="ht_node" tilt="-26.86" url="{node16}" pan="-322.38"/>
+      <hotspot target="179.4/-16.3/70.0" title="Back Seats" description="" id="Point02" skinid="ht_node" tilt="-23.01" url="{node14}" pan="-223.57"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomfov="20" enabled="1" type="crossdissolve" zoomspeed="3.5" zoomafteroutfov="20" zoomout="0" softedge="0" blendcolor="0x000000" zoomafterinfov="90" zoomin="6" zoomoutpause="1"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control dblclickfullscreen="0" simulatemass="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertcontrol="1" lockedmouse="0" invertwheel="0" speedwheel="1" contextfullscreen="1" contextprojections="1" hideabout="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <transition zoomafterinfov="90" zoomin="6" zoomoutpause="1" blendtime="1" zoomspeed="3.5" zoomfov="20" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomafteroutfov="20" zoomout="0"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control rubberband="0" lockedkeyboard="0" hideabout="1" speedwheel="1" contextprojections="1" lockedwheel="0" simulatemass="1" sensitivity="8" lockedkeyboardzoom="0" lockedmouse="0" invertwheel="0" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="1"/>
   </panorama>
-  <panorama id="node16" hideabout="1">
-    <input leveltilesize="510" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1" width="1250" height="1250" levelbias="0.400">
-      <level predecode="0" width="1250" height="1250" preload="0"/>
-      <level predecode="0" width="625" height="625" preload="0"/>
-      <level predecode="1" width="312" height="312" preload="1"/>
+  <panorama hideabout="1" id="node16">
+    <input height="2500" overlap="1" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" width="2500" levelingpitch="0">
+      <level height="2500" preload="0" predecode="0" width="2500"/>
+      <level height="1250" preload="0" predecode="0" width="1250"/>
+      <level height="625" preload="0" predecode="0" width="625"/>
+      <level height="312" preload="1" predecode="1" width="312"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start projection="4" tilt="0" fov="70" pan="0"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max fovfisheye="360" scaletofit="1" tilt="90" fov="120" pan="360" fovstereographic="270"/>
+      <max fovstereographic="270" fovfisheye="360" fov="120" tilt="90" pan="360" scaletofit="1"/>
     </view>
-    <userdata latitude="" description="Prepared by SOF Studio" tags="v1" title="Back Seat End" author="Sofonias L" datetime="" customnodeid="" copyright="Sofonias L" comment="" heading="0" source="" longitude="" info="" nodeid="node16"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" enabled="1" width="180" borderalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderradius="1" height="20" textalpha="1" backgroundalpha="1" border="1"/>
-      <polystyle handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
-      <hotspot description="" target="" tilt="-26.08" title="Back Seat Corner" id="Point02" pan="-177.91" url="{node15}" skinid="ht_node"/>
+    <userdata longitude="" title="Back Seat End" heading="0" customnodeid="" description="Prepared by SOF Studio" tags="v1" datetime="" latitude="" nodeid="node16" copyright="Sofonias L" info="" author="Sofonias L" source="" comment=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" bordercolor="0x000000" backgroundalpha="1" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" background="1" enabled="1" border="1" borderalpha="1" width="180" wordwrap="1" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
+      <hotspot target="-131.3/-7.9/70.0" title="Back Seat Corner" description="" id="Point02" skinid="ht_node" tilt="-26.91" url="{node15}" pan="-181.37"/>
+      <hotspot target="" title="" description="" id="Point01" skinid="ht_image" tilt="-20.12" url="images/x_Pano1-_reception.png" pan="-181.66"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomfov="20" enabled="1" type="crossdissolve" zoomspeed="3.5" zoomafteroutfov="20" zoomout="0" softedge="0" blendcolor="0x000000" zoomafterinfov="90" zoomin="6" zoomoutpause="1"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control dblclickfullscreen="0" simulatemass="1" sensitivity="8" rubberband="0" lockedkeyboard="0" invertcontrol="1" lockedmouse="0" invertwheel="0" speedwheel="1" contextfullscreen="1" contextprojections="1" hideabout="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <transition zoomafterinfov="90" zoomin="6" zoomoutpause="1" blendtime="1" zoomspeed="3.5" zoomfov="20" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomafteroutfov="20" zoomout="0"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control rubberband="0" lockedkeyboard="0" hideabout="1" speedwheel="1" contextprojections="1" lockedwheel="0" simulatemass="1" sensitivity="8" lockedkeyboardzoom="0" lockedmouse="0" invertwheel="0" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="1"/>
   </panorama>
   <masternode>
-    <userdata latitude="" description="Prepared by SOF Studio" tags="" title="Argyle Restaurant" author="Sofonias L" datetime="" customnodeid="" copyright="Sofonias L" comment="" heading="0" source="" longitude="" info="" nodeid="master"/>
+    <userdata longitude="" title="Argyle Restaurant" heading="0" customnodeid="" description="Prepared by SOF Studio" tags="" datetime="" latitude="" nodeid="master" copyright="Sofonias L" info="" author="Sofonias L" source="" comment=""/>
   </masternode>
-  <map tileformat="jpg" zoomlevels="1" title="Bathroom Floor Plan" type="file" width="0" id="FloorPlan01" transparent="0" height="0" bgcolor="rgba(255, 255, 255, 1)" floorplannorth="220"/>
+  <map height="0" floorplannorth="220" title="Bathroom Floor Plan" id="FloorPlan01" type="file" bgcolor="rgba(255, 255, 255, 1)" tileformat="jpg" transparent="0" width="0" zoomlevels="1"/>
 </tour>
