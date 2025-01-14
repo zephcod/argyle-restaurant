@@ -18,7 +18,7 @@
     <hotspots height="20" width="180" wordwrap="1">
       <label height="20" bordercolor="0x000000" backgroundalpha="1" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" background="1" enabled="1" border="1" borderalpha="1" width="180" wordwrap="1" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" mode="0"/>
-      <hotspot target="4.6/-3.3/70.0" title="Reception" description="" id="1" skinid="ht_node" tilt="-19.55" url="{node6}" pan="-1.15"/>
+      <hotspot target="4.6/-3.3/70.0" title="Reception" description="" id="1" skinid="ht_node" tilt="-19.46" url="{node6}" pan="-1.45"/>
       <hotspot target="-50.0/1.1/70.0" title="Foyer" description="" id="1" skinid="ht_node" tilt="-8.93" url="{node8}" pan="-0.44"/>
     </hotspots>
     <media/>
